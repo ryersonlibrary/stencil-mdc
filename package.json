@@ -1,0 +1,67 @@
+{
+  "name": "APP_NAME",
+  "version": "0.0.0",
+  "description": "Empty StencilJS application repository with opinionated dependencies for build and commit automation included.",
+  "main": "dist/index.js",
+  "module": "dist/esm/es5/index.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "unpkg": "dist/STENCIL_NS.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "npm run clean && stencil build --docs",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "clean": "node scripts/clean.js",
+    "commit": "git-cz",
+    "lint": "npm run lint.ts && npm run lint.sass",
+    "lint.sass": "stylelint config stylelint.yml 'src/**/*.scss'",
+    "lint.ts": "tslint --project .",
+    "release": "node scripts/release.js",
+    "release.prepare": "node scripts/release.js --prepare",
+    "set.version": "node scripts/set-version.js",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.spec": "stencil test --spec",
+    "test.e2e": "stencil test --e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daqst/stencil-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daqst/stencil-starter/issues"
+  },
+  "homepage": "https://github.com/daqst/stencil-starter#readme",
+  "keywords": [
+    "stencil",
+    "app",
+    "web-app",
+    "starter"
+  ],
+  "author": "David Quast <david.quast@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@stencil/core": "^0.17.0",
+    "@stencil/sass": "^0.1.1",
+    "@stencil/utils": "0.0.5",
+    "ansi-colors": "^3.2.3",
+    "conventional-changelog-cli": "^2.0.11",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "git-cz": "^1.8.0",
+    "inquirer": "^6.2.1",
+    "listr": "^0.14.3",
+    "semver": "^5.6.0",
+    "stylelint": "^9.10.1",
+    "stylelint-order": "^2.0.0",
+    "tslint": "^5.12.1",
+    "tslint-ionic-rules": "0.0.21",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.4"
+  }
+}
