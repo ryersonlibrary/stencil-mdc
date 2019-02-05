@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>msc-card Example || Ryerson Library Material-Stencil Components</title>
+  <script src="/dist/msc.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    :root {
+      --mdc-theme-primary: red;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    msc-card.msc-card {
+      width: 300px;
+    }
+  </style>
+</head>
+<body class='demo-content'>
+  <script>
+    window.onload = () => {
+      const cardIcons = document.querySelector('#card-icons');
+      const cardButtons = document.querySelector('#card-buttons');
+
+      cardIcons.icons = ['event', 'feedback'];
+      cardButtons.buttons = [{name: 'Act1'}, {name: 'Act2'}];
+    };
+  </script>
+
+  <msc-card>
+    <span slot="primary">Basic card</span>
+  </msc-card>
+
+  <msc-card outlined>
+    <span slot="primary">Outlined Card</span>
+  </msc-card>
+
+  <msc-card card-title="Title in Media" no-content title-in-media></msc-card>
+
+  <msc-card has-primary-action>
+    <span slot="primary">Primary Action</span>
+  </msc-card>
+
+  <msc-card has-primary-action no-media>
+    <span slot="primary">No Media; Primary Action</span>
+  </msc-card>
+
+  <msc-card>
+    <span slot="primary">Primary Content</span>
+    <span slot="secondary">Secondary Content</span>
+  </msc-card>
+
+  <msc-card id="card-icons">
+    <span slot="primary">Icon Actions</span>
+  </msc-card>
+
+  <msc-card id="card-buttons" has-primary-action>
+    <span slot="primary">Button Actions</span>
+  </msc-card>
+</div>
+</body>
+</html>

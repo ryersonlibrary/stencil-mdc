@@ -1,12 +1,12 @@
 {
-  "name": "APP_NAME",
+  "name": "stencil-mdc",
   "version": "0.0.0",
   "description": "Empty StencilJS application repository with opinionated dependencies for build and commit automation included.",
   "main": "dist/index.js",
   "module": "dist/esm/es5/index.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
-  "unpkg": "dist/STENCIL_NS.js",
+  "unpkg": "dist/msc.js",
   "files": [
     "dist/"
   ],
@@ -28,19 +28,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daqst/stencil-starter.git"
+    "url": "git+https://github.com/ryersonlibrary/stencil-mdc-adapter.git"
   },
   "bugs": {
-    "url": "https://github.com/daqst/stencil-starter/issues"
+    "url": "https://github.com/ryersonlibrary/stencil-mdc-adapter/issues"
   },
-  "homepage": "https://github.com/daqst/stencil-starter#readme",
+  "homepage": "https://library.ryerson.ca",
   "keywords": [
     "stencil",
     "app",
     "web-app",
     "starter"
   ],
-  "author": "David Quast <david.quast@gmail.com>",
+  "author": "Ryerson University Library",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -49,13 +49,20 @@
     "@stencil/core": "^0.17.0",
     "@stencil/sass": "^0.1.1",
     "@stencil/utils": "0.0.5",
+    "@types/jest": "23.3.13",
+    "@types/node-sass": "^3.10.32",
+    "@types/puppeteer": "1.11.2",
     "ansi-colors": "^3.2.3",
     "conventional-changelog-cli": "^2.0.11",
     "execa": "^1.0.0",
     "fs-extra": "^7.0.1",
     "git-cz": "^1.8.0",
     "inquirer": "^6.2.1",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
     "listr": "^0.14.3",
+    "material-components-web": "^0.43.1",
+    "puppeteer": "1.11.0",
     "semver": "^5.6.0",
     "stylelint": "^9.10.1",
     "stylelint-order": "^2.0.0",
@@ -63,5 +70,6 @@
     "tslint-ionic-rules": "0.0.21",
     "tslint-react": "^3.6.0",
     "typescript": "^3.2.4"
-  }
+  },
+  "dependencies": {}
 }

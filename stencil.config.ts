@@ -2,10 +2,10 @@ import { Config } from '@stencil/core';
 import { sass } from '@stencil/sass';
 
 export const config: Config = {
-  namespace: 'STENCIL_NS',
+  namespace: 'msc',
   plugins: [
     sass({
-      injectGlobalPaths: ['./node_modules', './src/global']
+      includePaths: ['./node_modules', './src/global']
     }),
   ],
   outputTargets: [
@@ -19,9 +19,6 @@ export const config: Config = {
     {
       type: 'stats',
       file: 'stats.json',
-    },
-    {
-      type: 'www',
     }
   ],
   copy: [{ src: '**.*.scss' }],

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>msc-dialog Example || Ryerson Library Material-Stencil Components</title>
+  <script src="/dist/msc.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class='demo-content'>
+  <script>
+    window.onload = async () => {
+      let dialog = document.querySelector('msc-dialog');
+      let btnOpen = document.querySelector('button');
+
+      btnOpen.addEventListener('click', () => {
+        dialog.open();
+      });
+
+      dialog.addEventListener('MDCDialog:closed', evt => {
+        console.log(evt.detail.action);
+      });
+
+    }
+  </script>
+  <button>Open Dialog</button>
+  <msc-dialog>Content goes here</msc-dialog>
+</div>
+</body>
+</html>
