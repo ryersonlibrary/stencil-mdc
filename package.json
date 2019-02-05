@@ -1,6 +1,6 @@
 {
   "name": "@ryersonlibrary/stencil-mdc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "StencilJS components wrapped around Material Design Components.",
   "main": "dist/index.js",
   "module": "dist/esm/es5/index.js",

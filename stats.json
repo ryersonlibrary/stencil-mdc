@@ -4,8 +4,8 @@
     "version": "0.17.0"
   },
   "app": {
-    "namespace": "msc",
-    "fsNamespace": "msc",
+    "namespace": "RlMsc",
+    "fsNamespace": "rl-msc",
     "components": 4,
     "entries": 5,
     "bundles": 32
@@ -51,70 +51,70 @@
       ],
       "bundles": [
         {
-          "fileName": "islmmhfw.entry.js",
+          "fileName": "gz0sqhuw.entry.js",
           "outputs": [
-            "dist/msc/islmmhfw.entry.js"
+            "dist/rl-msc/gz0sqhuw.entry.js"
           ],
-          "size": 16297,
+          "size": 16299,
           "target": "es2017"
         },
         {
-          "fileName": "islmmhfw.entry.js",
+          "fileName": "gz0sqhuw.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/islmmhfw.entry.js"
+            "dist/esm/es2017/build/gz0sqhuw.entry.js"
           ],
-          "size": 17391,
+          "size": 17394,
           "target": "es2017"
         },
         {
-          "fileName": "islmmhfw.entry.js",
+          "fileName": "gz0sqhuw.entry.js",
           "outputs": [
-            "dist/esm/es5/build/islmmhfw.entry.js"
+            "dist/esm/es5/build/gz0sqhuw.entry.js"
           ],
-          "size": 16614,
+          "size": 16617,
           "target": "es5"
         },
         {
-          "fileName": "islmmhfw.es5.entry.js",
+          "fileName": "gz0sqhuw.es5.entry.js",
           "outputs": [
-            "dist/msc/islmmhfw.es5.entry.js"
+            "dist/rl-msc/gz0sqhuw.es5.entry.js"
           ],
-          "size": 16659,
+          "size": 16663,
           "target": "es5"
         },
         {
-          "fileName": "islmmhfw.sc.entry.js",
+          "fileName": "gz0sqhuw.sc.entry.js",
           "outputs": [
-            "dist/msc/islmmhfw.sc.entry.js"
+            "dist/rl-msc/gz0sqhuw.sc.entry.js"
           ],
-          "size": 16297,
+          "size": 16299,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "islmmhfw.sc.entry.js",
+          "fileName": "gz0sqhuw.sc.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/islmmhfw.sc.entry.js"
+            "dist/esm/es2017/build/gz0sqhuw.sc.entry.js"
           ],
-          "size": 17391,
+          "size": 17394,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "islmmhfw.sc.entry.js",
+          "fileName": "gz0sqhuw.sc.entry.js",
           "outputs": [
-            "dist/esm/es5/build/islmmhfw.sc.entry.js"
+            "dist/esm/es5/build/gz0sqhuw.sc.entry.js"
           ],
-          "size": 16614,
+          "size": 16617,
           "target": "es5",
           "scopedStyles": true
         },
         {
-          "fileName": "islmmhfw.sc.es5.entry.js",
+          "fileName": "gz0sqhuw.sc.es5.entry.js",
           "outputs": [
-            "dist/msc/islmmhfw.sc.es5.entry.js"
+            "dist/rl-msc/gz0sqhuw.sc.es5.entry.js"
           ],
-          "size": 16659,
+          "size": 16663,
           "target": "es5",
           "scopedStyles": true
         }
@@ -137,70 +137,70 @@
       ],
       "bundles": [
         {
-          "fileName": "jfx4gpre.entry.js",
+          "fileName": "5qrhrz7n.entry.js",
           "outputs": [
-            "dist/msc/jfx4gpre.entry.js"
+            "dist/rl-msc/5qrhrz7n.entry.js"
           ],
-          "size": 28418,
+          "size": 28420,
           "target": "es2017"
         },
         {
-          "fileName": "jfx4gpre.entry.js",
+          "fileName": "5qrhrz7n.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/jfx4gpre.entry.js"
+            "dist/esm/es2017/build/5qrhrz7n.entry.js"
           ],
-          "size": 31427,
+          "size": 31430,
           "target": "es2017"
         },
         {
-          "fileName": "jfx4gpre.entry.js",
+          "fileName": "5qrhrz7n.entry.js",
           "outputs": [
-            "dist/esm/es5/build/jfx4gpre.entry.js"
+            "dist/esm/es5/build/5qrhrz7n.entry.js"
           ],
-          "size": 29170,
+          "size": 29173,
           "target": "es5"
         },
         {
-          "fileName": "jfx4gpre.es5.entry.js",
+          "fileName": "5qrhrz7n.es5.entry.js",
           "outputs": [
-            "dist/msc/jfx4gpre.es5.entry.js"
+            "dist/rl-msc/5qrhrz7n.es5.entry.js"
           ],
-          "size": 29199,
+          "size": 29203,
           "target": "es5"
         },
         {
-          "fileName": "jfx4gpre.sc.entry.js",
+          "fileName": "5qrhrz7n.sc.entry.js",
           "outputs": [
-            "dist/msc/jfx4gpre.sc.entry.js"
+            "dist/rl-msc/5qrhrz7n.sc.entry.js"
           ],
-          "size": 28418,
+          "size": 28420,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "jfx4gpre.sc.entry.js",
+          "fileName": "5qrhrz7n.sc.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/jfx4gpre.sc.entry.js"
+            "dist/esm/es2017/build/5qrhrz7n.sc.entry.js"
           ],
-          "size": 31427,
+          "size": 31430,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "jfx4gpre.sc.entry.js",
+          "fileName": "5qrhrz7n.sc.entry.js",
           "outputs": [
-            "dist/esm/es5/build/jfx4gpre.sc.entry.js"
+            "dist/esm/es5/build/5qrhrz7n.sc.entry.js"
           ],
-          "size": 29170,
+          "size": 29173,
           "target": "es5",
           "scopedStyles": true
         },
         {
-          "fileName": "jfx4gpre.sc.es5.entry.js",
+          "fileName": "5qrhrz7n.sc.es5.entry.js",
           "outputs": [
-            "dist/msc/jfx4gpre.sc.es5.entry.js"
+            "dist/rl-msc/5qrhrz7n.sc.es5.entry.js"
           ],
-          "size": 29199,
+          "size": 29203,
           "target": "es5",
           "scopedStyles": true
         }
@@ -223,70 +223,70 @@
       ],
       "bundles": [
         {
-          "fileName": "ta5taova.entry.js",
+          "fileName": "lix6u1pr.entry.js",
           "outputs": [
-            "dist/msc/ta5taova.entry.js"
+            "dist/rl-msc/lix6u1pr.entry.js"
           ],
-          "size": 30452,
+          "size": 30454,
           "target": "es2017"
         },
         {
-          "fileName": "ta5taova.entry.js",
+          "fileName": "lix6u1pr.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/ta5taova.entry.js"
+            "dist/esm/es2017/build/lix6u1pr.entry.js"
           ],
-          "size": 51874,
+          "size": 51877,
           "target": "es2017"
         },
         {
-          "fileName": "ta5taova.entry.js",
+          "fileName": "lix6u1pr.entry.js",
           "outputs": [
-            "dist/esm/es5/build/ta5taova.entry.js"
+            "dist/esm/es5/build/lix6u1pr.entry.js"
           ],
-          "size": 34355,
+          "size": 34358,
           "target": "es5"
         },
         {
-          "fileName": "ta5taova.es5.entry.js",
+          "fileName": "lix6u1pr.es5.entry.js",
           "outputs": [
-            "dist/msc/ta5taova.es5.entry.js"
+            "dist/rl-msc/lix6u1pr.es5.entry.js"
           ],
-          "size": 32944,
+          "size": 32948,
           "target": "es5"
         },
         {
-          "fileName": "ta5taova.sc.entry.js",
+          "fileName": "lix6u1pr.sc.entry.js",
           "outputs": [
-            "dist/msc/ta5taova.sc.entry.js"
+            "dist/rl-msc/lix6u1pr.sc.entry.js"
           ],
-          "size": 30452,
+          "size": 30454,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "ta5taova.sc.entry.js",
+          "fileName": "lix6u1pr.sc.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/ta5taova.sc.entry.js"
+            "dist/esm/es2017/build/lix6u1pr.sc.entry.js"
           ],
-          "size": 51874,
+          "size": 51877,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "ta5taova.sc.entry.js",
+          "fileName": "lix6u1pr.sc.entry.js",
           "outputs": [
-            "dist/esm/es5/build/ta5taova.sc.entry.js"
+            "dist/esm/es5/build/lix6u1pr.sc.entry.js"
           ],
-          "size": 34355,
+          "size": 34358,
           "target": "es5",
           "scopedStyles": true
         },
         {
-          "fileName": "ta5taova.sc.es5.entry.js",
+          "fileName": "lix6u1pr.sc.es5.entry.js",
           "outputs": [
-            "dist/msc/ta5taova.sc.es5.entry.js"
+            "dist/rl-msc/lix6u1pr.sc.es5.entry.js"
           ],
-          "size": 32944,
+          "size": 32948,
           "target": "es5",
           "scopedStyles": true
         }
@@ -309,70 +309,70 @@
       ],
       "bundles": [
         {
-          "fileName": "c9dznh06.entry.js",
+          "fileName": "aml0nlrq.entry.js",
           "outputs": [
-            "dist/msc/c9dznh06.entry.js"
+            "dist/rl-msc/aml0nlrq.entry.js"
           ],
-          "size": 100269,
+          "size": 100271,
           "target": "es2017"
         },
         {
-          "fileName": "c9dznh06.entry.js",
+          "fileName": "aml0nlrq.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/c9dznh06.entry.js"
+            "dist/esm/es2017/build/aml0nlrq.entry.js"
           ],
-          "size": 204566,
+          "size": 204569,
           "target": "es2017"
         },
         {
-          "fileName": "c9dznh06.entry.js",
+          "fileName": "aml0nlrq.entry.js",
           "outputs": [
-            "dist/esm/es5/build/c9dznh06.entry.js"
+            "dist/esm/es5/build/aml0nlrq.entry.js"
           ],
-          "size": 114550,
+          "size": 114553,
           "target": "es5"
         },
         {
-          "fileName": "c9dznh06.es5.entry.js",
+          "fileName": "aml0nlrq.es5.entry.js",
           "outputs": [
-            "dist/msc/c9dznh06.es5.entry.js"
+            "dist/rl-msc/aml0nlrq.es5.entry.js"
           ],
-          "size": 111558,
+          "size": 111562,
           "target": "es5"
         },
         {
-          "fileName": "c9dznh06.sc.entry.js",
+          "fileName": "aml0nlrq.sc.entry.js",
           "outputs": [
-            "dist/msc/c9dznh06.sc.entry.js"
+            "dist/rl-msc/aml0nlrq.sc.entry.js"
           ],
-          "size": 100269,
+          "size": 100271,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "c9dznh06.sc.entry.js",
+          "fileName": "aml0nlrq.sc.entry.js",
           "outputs": [
-            "dist/esm/es2017/build/c9dznh06.sc.entry.js"
+            "dist/esm/es2017/build/aml0nlrq.sc.entry.js"
           ],
-          "size": 204566,
+          "size": 204569,
           "target": "es2017",
           "scopedStyles": true
         },
         {
-          "fileName": "c9dznh06.sc.entry.js",
+          "fileName": "aml0nlrq.sc.entry.js",
           "outputs": [
-            "dist/esm/es5/build/c9dznh06.sc.entry.js"
+            "dist/esm/es5/build/aml0nlrq.sc.entry.js"
           ],
-          "size": 114550,
+          "size": 114553,
           "target": "es5",
           "scopedStyles": true
         },
         {
-          "fileName": "c9dznh06.sc.es5.entry.js",
+          "fileName": "aml0nlrq.sc.es5.entry.js",
           "outputs": [
-            "dist/msc/c9dznh06.sc.es5.entry.js"
+            "dist/rl-msc/aml0nlrq.sc.es5.entry.js"
           ],
-          "size": 111558,
+          "size": 111562,
           "target": "es5",
           "scopedStyles": true
         }
