@@ -1,12 +1,12 @@
 {
-  "name": "stencil-mdc",
+  "name": "@ryersonlibrary/stencil-mdc",
   "version": "0.1.0",
   "description": "Empty StencilJS application repository with opinionated dependencies for build and commit automation included.",
   "main": "dist/index.js",
   "module": "dist/esm/es5/index.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
-  "unpkg": "dist/msc.js",
+  "unpkg": "dist/rl-msc.js",
   "files": [
     "dist/"
   ],
