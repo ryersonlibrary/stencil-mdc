@@ -22,7 +22,7 @@ export class Dialog {
   /**
    * Reference to the Material Dialig component.
    */
-  private mdcDialog: MDCDialog;
+  private _mdcDialog?: MDCDialog;
 
   /**
    * Reference to the DOM root element.
@@ -45,14 +45,16 @@ export class Dialog {
    * Lifecycle event called when the component has entered the DOM and rendered.
    */
   componentDidLoad() {
-    this.mdcDialog = new MDCDialog(this.root);
+    this._mdcDialog = new MDCDialog(this.root);
   }
 
   /**
    * Lifecycle event called when the component is removed from the DOM.
    */
   componentDiDUnload() {
-    this.mdcDialog.destroy();
+    if (this._mdcDialog) {
+      this._mdcDialog.destroy();
+    }
   }
 
   /**
@@ -60,7 +62,9 @@ export class Dialog {
    */
   @Method()
   open() {
-    this.mdcDialog.open();
+    if (this._mdcDialog) {
+      this._mdcDialog.open();
+    }
   }
 
   /**

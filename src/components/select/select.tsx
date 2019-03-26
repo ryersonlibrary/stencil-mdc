@@ -16,7 +16,7 @@ export class Select {
   /**
    * Internal reference to the Select DOM element.
    */
-  private select!: HTMLDivElement;
+  private _select!: HTMLDivElement;
 
   /**
    * Internal reference to the root DOM element.
@@ -57,7 +57,9 @@ export class Select {
   @Prop() selectWidth = 100;
 
   componentDidLoad() {
-    new MDCSelect(this.select);
+    // `_select` will not be undefined at this point, `didLoad` is called after
+    // component is in the DOM.
+    new MDCSelect(this._select);
   }
 
   render() {
@@ -71,7 +73,12 @@ export class Select {
     };
 
     return (
-      <div class={selectClasses} ref={el => this.select = el as HTMLDivElement} aria-disabled={disabled} style={widthStyle}>
+      <div
+        class={selectClasses}
+        ref={el => this._select = el as HTMLDivElement}
+        aria-disabled={disabled}
+        style={widthStyle}
+      >
         {this.native ?
           ([
             <i class="mdc-select__dropdown-icon"></i>,
