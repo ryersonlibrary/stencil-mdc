@@ -6,19 +6,21 @@
   <title>msc-select Example || Ryerson Library Material-Stencil Components</title>
   <script src="/dist/rl-msc.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    :root {
+      --mdc-theme-primary: red;
+    }
+  </style>
 </head>
 
 <body class='demo-content'>
-  <script>
-  
-  </script>
-  <msc-select select-width="300">
+  <msc-select select-width="300" label="Select a fruit">
     <li class="mdc-list-item" data-value=""></li>
     <li class="mdc-list-item" data-value="apples">Fuji, Red Delicious</li>
     <li class="mdc-list-item" data-value="orange">Mandarin, Naval</li>
   </msc-select>
 
-  <msc-select native select-width="300">
+  <msc-select native select-width="300" label="Select another fruit">
     <option class="mdc-list-item" disabled selected></option>
     <option class="mdc-list-item" value="apples">Fuji, Red Delicious</option>
     <option class="mdc-list-item" value="orange">Mandarin, Naval</option>

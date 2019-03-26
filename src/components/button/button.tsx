@@ -13,9 +13,9 @@ import {
   styleUrl: 'msc-button.scss',
 })
 export class Button {
-  private ripple!: MDCRipple;
+  private _ripple!: MDCRipple;
 
-  private btn!: HTMLButtonElement;
+  private _btn!: HTMLButtonElement;
 
   @Element() root!: HTMLElement;
 
@@ -66,8 +66,8 @@ export class Button {
    * and been rendered.
    */
   componentDidLoad() {
-    this.ripple = new MDCRipple(this.btn);
-    this.ripple.unbounded = false;
+    this._ripple = new MDCRipple(this._btn);
+    this._ripple.unbounded = false;
   }
 
   /**
@@ -86,7 +86,7 @@ export class Button {
 
     return (
       <button
-          ref={el => this.btn = el as HTMLButtonElement}
+          ref={el => this._btn = el as HTMLButtonElement}
           class={classes}
           disabled={disabled}
       >

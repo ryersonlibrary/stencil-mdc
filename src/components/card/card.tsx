@@ -20,7 +20,7 @@ export class Card {
    * the title in the Media section of the card.  This is used to ensure the
    * title remains legible.
    */
-  private protectionColor: Color[] = [
+  private _protectionColor: Color[] = [
     new Color(255, 255, 255, 0.8),
     new Color(255, 255, 255, 0.2),
   ];
@@ -30,7 +30,7 @@ export class Card {
    * the highest contrasting colour to be used relative to the text protection
    * color, ensuring maximal legibility.
    */
-  private textColors = [new Color(255, 255, 255), new Color(0, 0, 0)];
+  private _textColors = [new Color(255, 255, 255), new Color(0, 0, 0)];
 
   /**
    * Reference to the root element.
@@ -103,7 +103,7 @@ export class Card {
   @Watch('cardColor')
   cardColorChanged() {
     const col = this.cardColor.clone();
-    this.protectionColor = [
+    this._protectionColor = [
       col,
       col.clone().setAlpha(0.5),
     ];
@@ -131,7 +131,12 @@ export class Card {
         {this.buttons ?
           <div class="mdc-card__action-buttons">
             {this.buttons.map(b =>
-              <button class="mdc-button" ref={el => { const r = new MDCRipple(el); r.unbounded = false; }}>
+              <button
+                class="mdc-button"
+                ref={el => {
+                  if (el) { const r = new MDCRipple(el); r.unbounded = false; }
+                }}
+              >
                 <a href={b.link}>{b.name}</a>
               </button>
             )}
@@ -140,7 +145,12 @@ export class Card {
         {this.icons ?
           <div class="mdc-card__action-icons">
             {this.icons.map(i =>
-              <button class="mdc-icon-button" ref={el => { const r = new MDCRipple(el); r.unbounded = true; }}>
+              <button
+                class="mdc-icon-button"
+                ref={el => {
+                  if (el) { const r = new MDCRipple(el); r.unbounded = true; }
+                }}
+              >
                 <i class="material-icons mdc-icon-button__icon">{i}</i>
               </button>
             )}
@@ -156,24 +166,24 @@ export class Card {
 
     return (
       <div
-          class={`mdc-card__media mdc-card__media--${this.cardMediaAspect}`}
-          style={{ backgroundImage: mediaFile, backgroundSize: this.cardMediaSize }}
+        class={`mdc-card__media mdc-card__media--${this.cardMediaAspect}`}
+        style={{ backgroundImage: mediaFile, backgroundSize: this.cardMediaSize }}
       >
         {this.cardTitle !== '' ?
           [
             <div
-                class="msc-card__media-text-protection"
-                style={{
-                  background: `linear-gradient(to top, ${this.protectionColor[0].toRgb()},
-                  ${this.protectionColor[1].toRgb()})`
-                }}
+              class="msc-card__media-text-protection"
+              style={{
+                background: `linear-gradient(to top, ${this._protectionColor[0].toRgb()},
+                ${this._protectionColor[1].toRgb()})`
+              }}
             >
             </div>,
             <div
-                class="msc-card__media-text"
-                style={{
-                  color: this.protectionColor[0].highContrast(this.textColors).toRgb(),
-                }}
+              class="msc-card__media-text"
+              style={{
+                color: this._protectionColor[0].highContrast(this._textColors).toRgb(),
+              }}
             >
               {this.cardTitle}
             </div>,
@@ -211,9 +221,11 @@ export class Card {
     return ([
       this.hasPrimaryAction ?
         <div
-            class="mdc-card__primary-action"
-            onClick={() => this.cardClicked.emit(this)}
-            ref={el => { const r = new MDCRipple(el); r.unbounded = false; }}
+          class="mdc-card__primary-action"
+          onClick={() => this.cardClicked.emit(this)}
+          ref={el => {
+            if (el) { const r = new MDCRipple(el); r.unbounded = false; }
+          }}
         >
           {this._renderCard()}
         </div> :
