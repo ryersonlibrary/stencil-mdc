@@ -7,15 +7,15 @@
     "namespace": "RlMsc",
     "fsNamespace": "rl-msc",
     "components": 4,
-    "entries": 4,
-    "bundles": 0
+    "entries": 5,
+    "bundles": 32
   },
   "options": {
-    "minifyJs": false,
-    "minifyCss": false,
-    "hashFileNames": false,
+    "minifyJs": true,
+    "minifyCss": true,
+    "hashFileNames": true,
     "hashedFileNameLength": 8,
-    "buildEs5": false
+    "buildEs5": true
   },
   "components": [
     {
@@ -49,7 +49,76 @@
           "dependencyOf": []
         }
       ],
-      "bundles": [],
+      "bundles": [
+        {
+          "fileName": "snx8ij7s.entry.js",
+          "outputs": [
+            "dist/rl-msc/snx8ij7s.entry.js"
+          ],
+          "size": 16373,
+          "target": "es2017"
+        },
+        {
+          "fileName": "snx8ij7s.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/snx8ij7s.entry.js"
+          ],
+          "size": 17468,
+          "target": "es2017"
+        },
+        {
+          "fileName": "snx8ij7s.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/snx8ij7s.entry.js"
+          ],
+          "size": 16691,
+          "target": "es5"
+        },
+        {
+          "fileName": "snx8ij7s.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/snx8ij7s.es5.entry.js"
+          ],
+          "size": 16737,
+          "target": "es5"
+        },
+        {
+          "fileName": "snx8ij7s.sc.entry.js",
+          "outputs": [
+            "dist/rl-msc/snx8ij7s.sc.entry.js"
+          ],
+          "size": 16373,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "snx8ij7s.sc.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/snx8ij7s.sc.entry.js"
+          ],
+          "size": 17468,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "snx8ij7s.sc.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/snx8ij7s.sc.entry.js"
+          ],
+          "size": 16691,
+          "target": "es5",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "snx8ij7s.sc.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/snx8ij7s.sc.es5.entry.js"
+          ],
+          "size": 16737,
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
       "inputs": [
         "src/components/button/button.js"
       ],
@@ -66,7 +135,76 @@
           "dependencyOf": []
         }
       ],
-      "bundles": [],
+      "bundles": [
+        {
+          "fileName": "5fgz5xmj.entry.js",
+          "outputs": [
+            "dist/rl-msc/5fgz5xmj.entry.js"
+          ],
+          "size": 28568,
+          "target": "es2017"
+        },
+        {
+          "fileName": "5fgz5xmj.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/5fgz5xmj.entry.js"
+          ],
+          "size": 31986,
+          "target": "es2017"
+        },
+        {
+          "fileName": "5fgz5xmj.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/5fgz5xmj.entry.js"
+          ],
+          "size": 29321,
+          "target": "es5"
+        },
+        {
+          "fileName": "5fgz5xmj.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/5fgz5xmj.es5.entry.js"
+          ],
+          "size": 29351,
+          "target": "es5"
+        },
+        {
+          "fileName": "5fgz5xmj.sc.entry.js",
+          "outputs": [
+            "dist/rl-msc/5fgz5xmj.sc.entry.js"
+          ],
+          "size": 28568,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "5fgz5xmj.sc.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/5fgz5xmj.sc.entry.js"
+          ],
+          "size": 31986,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "5fgz5xmj.sc.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/5fgz5xmj.sc.entry.js"
+          ],
+          "size": 29321,
+          "target": "es5",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "5fgz5xmj.sc.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/5fgz5xmj.sc.es5.entry.js"
+          ],
+          "size": 29351,
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
       "inputs": [
         "src/components/card/card.js"
       ],
@@ -83,7 +221,76 @@
           "dependencyOf": []
         }
       ],
-      "bundles": [],
+      "bundles": [
+        {
+          "fileName": "wkxkiem0.entry.js",
+          "outputs": [
+            "dist/rl-msc/wkxkiem0.entry.js"
+          ],
+          "size": 32453,
+          "target": "es2017"
+        },
+        {
+          "fileName": "wkxkiem0.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/wkxkiem0.entry.js"
+          ],
+          "size": 55695,
+          "target": "es2017"
+        },
+        {
+          "fileName": "wkxkiem0.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/wkxkiem0.entry.js"
+          ],
+          "size": 34634,
+          "target": "es5"
+        },
+        {
+          "fileName": "wkxkiem0.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/wkxkiem0.es5.entry.js"
+          ],
+          "size": 32891,
+          "target": "es5"
+        },
+        {
+          "fileName": "wkxkiem0.sc.entry.js",
+          "outputs": [
+            "dist/rl-msc/wkxkiem0.sc.entry.js"
+          ],
+          "size": 32453,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "wkxkiem0.sc.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/wkxkiem0.sc.entry.js"
+          ],
+          "size": 55695,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "wkxkiem0.sc.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/wkxkiem0.sc.entry.js"
+          ],
+          "size": 34634,
+          "target": "es5",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "wkxkiem0.sc.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/wkxkiem0.sc.es5.entry.js"
+          ],
+          "size": 32891,
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
       "inputs": [
         "src/components/dialog/dialog.js"
       ],
@@ -100,15 +307,476 @@
           "dependencyOf": []
         }
       ],
-      "bundles": [],
+      "bundles": [
+        {
+          "fileName": "cavnikeu.entry.js",
+          "outputs": [
+            "dist/rl-msc/cavnikeu.entry.js"
+          ],
+          "size": 110066,
+          "target": "es2017"
+        },
+        {
+          "fileName": "cavnikeu.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/cavnikeu.entry.js"
+          ],
+          "size": 226612,
+          "target": "es2017"
+        },
+        {
+          "fileName": "cavnikeu.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/cavnikeu.entry.js"
+          ],
+          "size": 113940,
+          "target": "es5"
+        },
+        {
+          "fileName": "cavnikeu.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/cavnikeu.es5.entry.js"
+          ],
+          "size": 110975,
+          "target": "es5"
+        },
+        {
+          "fileName": "cavnikeu.sc.entry.js",
+          "outputs": [
+            "dist/rl-msc/cavnikeu.sc.entry.js"
+          ],
+          "size": 110066,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "cavnikeu.sc.entry.js",
+          "outputs": [
+            "dist/esm/es2017/build/cavnikeu.sc.entry.js"
+          ],
+          "size": 226612,
+          "target": "es2017",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "cavnikeu.sc.entry.js",
+          "outputs": [
+            "dist/esm/es5/build/cavnikeu.sc.entry.js"
+          ],
+          "size": 113940,
+          "target": "es5",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "cavnikeu.sc.es5.entry.js",
+          "outputs": [
+            "dist/rl-msc/cavnikeu.sc.es5.entry.js"
+          ],
+          "size": 110975,
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
       "inputs": [
         "src/components/select/select.js"
       ],
       "encapsulations": [
         "none"
       ]
+    },
+    {
+      "entryId": "exportedFile",
+      "components": [],
+      "bundles": [],
+      "inputs": [],
+      "encapsulations": []
     }
   ],
+  "rollupResults": {
+    "modules": [
+      {
+        "id": "index.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [],
+        "modules": [
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/index.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.msc-select.js",
+        "isEntry": true,
+        "imports": [
+          "chunk-474df0f6.js"
+        ],
+        "exports": [
+          "MscSelect"
+        ],
+        "modules": [
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/floating-label/constants.js",
+            "exports": [
+              "cssClasses"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/floating-label/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/floating-label/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/floating-label/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/line-ripple/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/line-ripple/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/line-ripple/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/line-ripple/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu-surface/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/list/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/list/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/list/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/list/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu-surface/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu-surface/util.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu-surface/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu-surface/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/menu/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/notched-outline/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/notched-outline/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/notched-outline/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/notched-outline/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/helper-text/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/helper-text/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/helper-text/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/helper-text/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/icon/constants.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/icon/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/icon/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/icon/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/select/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/components/select/select.js",
+            "exports": [
+              "Select"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/entry.msc-select.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.msc-dialog.js",
+        "isEntry": true,
+        "imports": [
+          "chunk-474df0f6.js"
+        ],
+        "exports": [
+          "MscDialog"
+        ],
+        "modules": [
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/tabbable/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/xtend/immutable.js",
+            "exports": []
+          },
+          {
+            "filename": "\u0000commonjs-proxy:/data/dquast/_work/stencil-mdc/node_modules/tabbable/index.js",
+            "exports": [
+              "default"
+            ]
+          },
+          {
+            "filename": "\u0000commonjs-proxy:/data/dquast/_work/stencil-mdc/node_modules/xtend/immutable.js",
+            "exports": [
+              "default"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/focus-trap/index.js",
+            "exports": [
+              "default"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/dialog/util.js",
+            "exports": [
+              "createFocusTrapInstance",
+              "isScrollable",
+              "areTopsMisaligned"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/dialog/constants.js",
+            "exports": [
+              "cssClasses",
+              "strings",
+              "numbers"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/dialog/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/dialog/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/dialog/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/components/dialog/dialog.js",
+            "exports": [
+              "Dialog"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/entry.msc-dialog.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.msc-card.js",
+        "isEntry": true,
+        "imports": [
+          "chunk-474df0f6.js"
+        ],
+        "exports": [
+          "MscCard"
+        ],
+        "modules": [
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/utils/color.js",
+            "exports": [
+              "Color"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/components/card/card.js",
+            "exports": [
+              "Card"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/entry.msc-card.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.msc-button.js",
+        "isEntry": true,
+        "imports": [
+          "chunk-474df0f6.js"
+        ],
+        "exports": [
+          "MscButton"
+        ],
+        "modules": [
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/components/button/button.js",
+            "exports": [
+              "Button"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/src/entry.msc-button.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "chunk-474df0f6.js",
+        "isEntry": false,
+        "imports": [],
+        "exports": [
+          "MDCRipple",
+          "__extends",
+          "__assign",
+          "MDCFoundation",
+          "__values",
+          "MDCComponent",
+          "matches",
+          "closest",
+          "MDCRippleFoundation"
+        ],
+        "modules": [
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/ripple/util.js",
+            "exports": [
+              "supportsCssVariables",
+              "applyPassive",
+              "getNormalizedEventCoords"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/tslib/tslib.es6.js",
+            "exports": [
+              "__extends",
+              "__assign",
+              "__values",
+              "__read",
+              "__spread"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/base/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/base/component.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/dom/ponyfill.js",
+            "exports": [
+              "closest",
+              "matches"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/dom/index.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/ripple/constants.js",
+            "exports": [
+              "cssClasses",
+              "strings",
+              "numbers"
+            ]
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/ripple/foundation.js",
+            "exports": []
+          },
+          {
+            "filename": "/data/dquast/_work/stencil-mdc/node_modules/@material/ripple/component.js",
+            "exports": []
+          }
+        ]
+      }
+    ]
+  },
   "sourceGraph": {
     "src/components/button/button.tsx": [],
     "src/components/card/card.tsx": [
